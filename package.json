@@ -1,0 +1,47 @@
+{
+    "name": "@unqueue-dev-inc/prettier-config-unqueue",
+    "version": "1.0",
+    "description": "ESLint and Prettier Config for working on Unqueue",
+    "main": "index.js",
+    "keywords": [
+      "javascript",
+      "ecmascript",
+      "eslint",
+      "lint",
+      "config",
+      "prettier"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Unqueue-Dev-Inc/prettier-config-unqueue.git"
+    },
+    "author": "Victor de la Fouchardiere <victor.delafouchardiere@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/Unqueue-Dev-Inc/prettier-config-unqueue",
+    "peerDependencies": {
+      "babel-eslint": "^10.1.0",
+      "eslint": "^7.16.0",
+      "eslint-config-prettier": "^7.1.0",
+      "eslint-plugin-jsx-a11y": "^6.4.1",
+      "eslint-plugin-prettier": "^3.3.0",
+      "eslint-plugin-react": "^7.21.5",
+      "eslint-plugin-react-hooks": "^4.2.0",
+      "eslint-plugin-simple-import-sort": "^7.0.0",
+      "prettier": "^2.2.1"
+    },
+    "devDependencies": {
+      "babel-eslint": "^10.1.0",
+      "eslint": "^7.16.0",
+      "eslint-config-prettier": "^7.1.0",
+      "eslint-plugin-jsx-a11y": "^6.4.1",
+      "eslint-plugin-prettier": "^3.3.0",
+      "eslint-plugin-react": "^7.21.5",
+      "eslint-plugin-react-hooks": "^4.2.0",
+      "eslint-plugin-simple-import-sort": "^7.0.0",
+      "prettier": "^2.2.1"
+    },
+    "scripts": {
+      "lint": "eslint .",
+      "lint:fix": "eslint --fix"
+    }
+  }
